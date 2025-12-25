@@ -3,7 +3,7 @@
   "name": "api",
   "version": "1.0.0",
   "scripts": {
-    "dev": "node api/server.js"
+    "dev": "node sell/server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
