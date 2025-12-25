@@ -2,12 +2,12 @@
   "version": 2,
   "rewrites": [
     {
-      "source": "/api",
-      "destination": "/api/server.js"
+      "source": "/sell",
+      "destination": "/sell/server.js"
     },
     {
       "source": "/api/:path*",
-      "destination": "/api/server.js"
+      "destination": "/sell/server.js"
     }
   ]
 }
