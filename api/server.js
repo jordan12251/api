@@ -1,3 +1,4 @@
+
 // api/server.js
 // Version compatible avec Vercel (export via module.exports)
 
@@ -251,9 +252,7 @@ app.post("/api/submit-photo", async (req, res) => {
 });
 
 // Default route
-a.get("/api", (req, res) => res.send("API ready ✅"));
+app.get("/api", (req, res) => res.send("API ready ✅"));
 
 // ✅ Export pour Vercel
-
-
-
+module.exports = app;
